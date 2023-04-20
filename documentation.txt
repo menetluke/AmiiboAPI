@@ -1,0 +1,17 @@
+I spent the majority of the time on this project working on the mechanics
+of the site, rather than the design itself. I was shaky on how APIs worked, 
+so I took this project as a valuable learning  experience. The first order of business 
+was understanding how the search queries worked, and I discovered the syntax needed after  
+an hour of working around the API itself. I encountered an error when attempting to
+implement code which would allow a user to search without entering any criteria, 
+in which I could freeze my computer for a few minutes by trying to return the 
+data for every amiibo at once. To circumvent this issue, I capped the maximum
+number of amiibos that could be shown at once at 30. Later, I added a reset button, to  
+reset the drop downs and search bar to a default state. The aesthetics of the site were 
+very simple. I used red and white colors and rounded buttons, in emulation of 
+the Nintendo logo. I used an 8-bit style font for most of my text, with the 
+dropdown boxes remaining in a basic font so the user can clearly distinguish between options. 
+
+Resources Used:
+Google Fonts - Press Start 2P
+Amiibo API

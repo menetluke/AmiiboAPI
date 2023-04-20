@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Amiibo Searcher</title>
+ 	<link rel="stylesheet" href="stylesheet.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<!-- Import jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="scriptsheet.js"></script>
+
+</head>
+<body>
+<header>
+ <h1>Amiibo Searcher</h1>
+</header>
+
+<main>
+ <p>Search Term -&gt; <input id="searchterm" type="text" size="20" maxlength="20" autofocus/></p>
+
+ <div class="widgets">
+    Game Series ->
+    <select id="gameSeries">
+        <option value="">Any</option>
+        <option value="Super Mario">Super Mario</option>
+        <option value="Donkey Kong">Donkey Kong</option>
+        <option value="Mario Sports Superstars">Mario Sports Superstars</option>
+        <option value="The Legend of Zelda">Legend of Zelda</option>
+        <option value="Splatoon">Splatoon</option>
+        <option value="Animal Crossing">Animal Crossing</option>
+        <option value="Star Fox">Star Fox</option>
+        <option value="F-Zero">F-Zero</option>
+        <option value="Punch Out">Punch Out</option>
+        <option value="Wii Fit">Wii Fit</option>
+        <option value="Kid Icarus">Kid Icarus</option>
+        <option value="Classic Nintendo">Classic Nintendo</option>
+        <option value="Mii">Mii</option>
+        <option value="Xenoblade">Xenoblade</option>
+        <option value="Earthbound">Earthbound</option>
+        <option value="Sonic">Sonic</option>
+        <option value="Bayonetta">Bayonetta</option>
+        <option value="Pac-Man">Pac-man</option>
+        <option value="Street Fighter">Street Fighter</option>
+        <option value="Final Fantasy">Final Fantasy</option>
+        <option value="Dragon Quest">Dragon Quest</option>
+        <option value="Metal Gear Solid">Metal Gear Solid</option>
+        <option value="Castlevania">Castlevania</option>
+        <option value="Persona">Persona</option>
+        <option value="Banjo Kazooie">Banjo Kazooie</option>
+        <option value="Fatal Fury">Fatal Fury</option>
+        <option value="Monster Hunter">Monster Hunter</option>
+        <option value="Pokemon">Pokemon</option>
+        <option value="Shovel Knight">Shovel Knight</option>
+        <option value="Chibi Robo">Chibi Robo</option>
+        <option value="BoxBoy!">BoxBoy!</option>
+        <option value="Yoshi's Woolly World">Yoshi's Woolly World</option>
+        <option value="Pikmin">Pikmin</option>
+        <option value="Fire Emblem">Fire Emblem</option>
+        <option value="Kirby">Kirby</option>
+        <option value="Metroid">Metroid</option>
+        <option value="Megaman">Mega Man</option>
+        <option value="Power Pros">Power Pros</option>
+        <option value="Diablo">Diablo</option>
+        <option value="Monster Hunter Rise">Monster Hunter Rise</option>
+        <option value="Yu-Gi-Oh!">Yu-Gi-Oh</option>
+        <option value="Dark Souls">Dark Souls</option>
+    </select>
+ </div>
+
+ <div class="widgets">
+    Amiibo Series ->
+    <select id="amiiboSeries">
+        <option value="">Any</option>
+        <option value="Super Mario Bros.">Super Mario Bros.</option>
+        <option value="Super Smash Bros.">Super Smash Bros.</option>
+        <option value="Mario Sports Superstars">Mario Sports Superstars</option>
+        <option value="Legend of Zelda">Legend of Zelda</option>
+        <option value="Splatoon">Splatoon</option>
+        <option value="Animal Crossing">Animal Crossing</option>
+        <option value="Monster Hunter">Monster Hunter</option>
+        <option value="Pokemon">Pokemon</option>
+        <option value="Shovel Knight">Shovel Knight</option>
+        <option value="Chibi-Robo!">Chibi-Robo!</option>
+        <option value="BoxBoy!">BoxBoy!</option>
+        <option value="Yoshi's Woolly World">Yoshi's Woolly World</option>
+        <option value="Skylanders">Skylanders</option>
+        <option value="Pikmin">Pikmin</option>
+        <option value="Fire Emblem">Fire Emblem</option>
+        <option value="Kirby">Kirby</option>
+        <option value="Metroid">Metroid</option>
+        <option value="Mega Man">Mega Man</option>
+        <option value="Power Pros">Power Pros</option>
+        <option value="Diablo">Diablo</option>
+        <option value="Monster Hunter Rise">Monster Hunter Rise</option>
+        <option value="Yu-Gi-Oh!">Yu-Gi-Oh</option>
+        <option value="Others">Others</option>
+    </select>
+ </div>
+
+ <p><button type="button" id="search" class="green">Search!</button></p>
+
+ <p><button type="button" id="reset" class="green">Reset!</button></p>
+
+ <p id="debug"></p>
+
+ <hr>
+
+ <h2>Results</h2>
+
+ <div id="content">
+ <p>No data yet!</p>
+ </div>
+</main>
+
+<hr>
+<footer>
+ <a href="documentation.txt">Site Documentation</a>
+</footer>
+
+</body>
+</html>

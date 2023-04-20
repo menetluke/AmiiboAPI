@@ -1,0 +1,42 @@
+body{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+#content img{
+    max-width: 30%;
+}
+
+#content h3{
+    margin-top: 50px;
+}
+
+input{
+    border: 3px solid white;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 12px;
+}
+
+select{
+    margin: 5px;
+    border: 3px solid white;
+    border-radius: 12px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: 3px solid white;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: white;
+    color: red;
+    border: 3px solid white;
+    font-family: 'Press Start 2P', cursive;
+    border-radius: 12px;
+}
